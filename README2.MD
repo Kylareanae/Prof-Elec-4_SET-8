@@ -13,26 +13,25 @@ class Program
             File.Create(filePath).Close();
         }
 
-        Console.WriteLine("Welcome to the Language Preference App!");
+        Console.WriteLine("Welcome!");
         Console.WriteLine("1. Login");
         Console.WriteLine("2. Register");
         Console.Write("Choose an option: ");
         
         // Read user choice and handle input
-        int choice;
-        if (int.TryParse(Console.ReadLine(), out choice))
+        if (int.TryParse(Console.ReadLine(), out int choice))
         {
-            if (choice == 1)
+            switch (choice)
             {
-                Login(filePath);
-            }
-            else if (choice == 2)
-            {
-                Register(filePath);
-            }
-            else
-            {
-                Console.WriteLine("Invalid option.");
+                case 1:
+                    Login(filePath);
+                    break;
+                case 2:
+                    Register(filePath);
+                    break;
+                default:
+                    Console.WriteLine("Invalid option.");
+                    break;
             }
         }
         else
@@ -96,25 +95,16 @@ class Program
         string message = GetTimeBasedGreeting(language);
         Console.WriteLine(message);
     }
+
     static string GetTimeBasedGreeting(string language)
     {
         int hour = DateTime.Now.Hour;
-        string greeting;
-
-        if (hour < 12)
+        return hour switch
         {
-            greeting = language == "spanish" ? "¡Buenos Días!" : "Good Morning!";
-        }
-        else if (hour < 18)
-        {
-            greeting = language == "spanish" ? "¡Buenas Tardes!" : "Good Afternoon!";
-        }
-        else
-        {
-            greeting = language == "spanish" ? "¡Buenas Noches!" : "Good Evening!";
-        }
-
-        return greeting;
+            < 12 => language == "spanish" ? "¡Buenos Días!" : "Good Morning!",
+            < 18 => language == "spanish" ? "¡Buenas Tardes!" : "Good Afternoon!",
+            _ => language == "spanish" ? "¡Buenas Noches!" : "Good Evening!",
+        };
     }
 
     static string SetLanguagePreference()
@@ -124,8 +114,7 @@ class Program
         Console.WriteLine("2. Spanish");
         Console.Write("Select an option: ");
         
-        int languageChoice;
-        if (int.TryParse(Console.ReadLine(), out languageChoice))
+        if (int.TryParse(Console.ReadLine(), out int languageChoice))
         {
             return languageChoice == 2 ? "spanish" : "english";
         }
@@ -162,5 +151,3 @@ class Program
         File.WriteAllLines(filePath, users);
     }
 }
-
-
