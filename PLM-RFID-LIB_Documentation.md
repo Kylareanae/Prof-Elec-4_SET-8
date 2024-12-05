@@ -25,8 +25,10 @@
 
 **1) RFID Integration for Book Borrowed and Returns** 
 - It allows users to borrow and return books using RFID technology. Each book is tagged with an RFID label, and the system automatically registers checkouts and returns through an RFID reader.
+  
 **2) User Registration and Library Card Management**
   - Users can register for an account, which includes issuing a library card. This card is linked to the user's profile and can be used for faster checkouts with RFID.
+    
 **3) Book Availability Tracking and Overdue Notifications**
   - The system monitors the availability of each book in real-time and sends automated reminders to users if a borrowed book is overdue.
 
