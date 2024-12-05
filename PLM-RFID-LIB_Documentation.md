@@ -1,6 +1,7 @@
 **Project Name: PLM RFID LIBRARY**
 
-**Authors: Austria, Marvin Coel R.
+**Authors: 
+          Austria, Marvin Coel R.
           Bugauisan, Saira Margarita S.
           Bulan, Mike P.
           Cagsawa, Raven Lorenz D.
@@ -12,7 +13,9 @@
           Sigua, Katrina Mae C.**
 
 **Date Created:**
+
 **Last Updated:**
+
 **Version:**
 
 **Description:** 
