@@ -1,6 +1,37 @@
-**Project Overview** 
-- The PLM RFID Library is a library management system designed to enhance library operations through the use of Radio Frequency Identification (RFID) technology. It is typically implemented as a web application. 
- The aim is to develop a system that allows users to manage and return books seamlessly using RFID. The system tracks borrowed and returned books, sends overdue notifications, and integrates with RFID readers. 
+**Project Name: PLM RFID LIBRARY**
+
+**Authors: Austria, Marvin Coel R.
+          Bugauisan, Saira Margarita S.
+          Bulan, Mike P.
+          Cagsawa, Raven Lorenz D.
+          Canada, Rimuel S.
+          Enriquez, Kyla Reana I.
+          Javier, Patrick James C.
+          Reyes, Aina Mae Kirsten B.
+          Reyes, Clarke Justine D.V
+          Sigua, Katrina Mae C.**
+
+**Date Created:**
+**Last Updated:**
+**Version:**
+
+**Description:** 
+- The PLM RFID Library is a web-based library management system that utilizes Radio Frequency Identification (RFID) technology to streamline library operations and improve the user experience. By automating key processes such as book tracking, borrowing, and returns, the system enhances operational efficiency and accuracy. It allows users to check out and return books seamlessly, with real-time tracking of borrowed items and automated overdue notifications. The integration with RFID readers enables quick, error-free identification and management of books, reducing manual tasks for staff and improving service for users. Ultimately, the system aims to modernize library operations, making them faster, more efficient, and user-friendly.
+
+**Key Features:**
+**1) RFID Integration for Book Borrowed and Returns** - It allows users to borrow and return books using RFID technology. Each book is tagged with an RFID label, and the system automatically registers checkouts and returns through an RFID reader.
+**2) User Registration and Library Card Management** - Users can register for an account, which includes issuing a library card. This card is linked to the user's profile and can be used for faster checkouts with RFID.
+**3) Book Availability Tracking and Overdue Notifications** - The system monitors the availability of each book in real-time and sends automated reminders to users if a borrowed book is overdue.
+
+
+
+
+
+
+
+
+
+
 
 
 **Setup Instructions (USER SIDE)**
@@ -63,23 +94,6 @@ The admin can also view the user's borrowed and returned books history, includin
 - If the user wants to logout their account, they just need to click the “Logout” button in the homepage.
 
 
-**Description of Main Features and How They Work**
-- The PLM RFID Library includes several key features designed to streamline book management and enhance user convenience. The main features of this system and their functions are as follows:
-
-**1) RFID Integration for Book Borrowed and Returns**
-It allows users to borrow and return books using RFID technology. Each book is tagged with an RFID label, and the system automatically registers checkouts and returns through an RFID reader.
-
-**2) User Registration and Library Card Management**
-- Users can register for an account, which includes issuing a library card. This card is linked to the user's profile and can be used for faster checkouts with RFID.
-
-**3) Book Availability Tracking and Overdue Notifications**
-- The system monitors the availability of each book in real-time and sends automated reminders to users if a borrowed book is overdue.
-
-**4) Admin Panel for Managing Books and Users**
-- It provides administrators with tools to add, update, and delete books from the catalog. Admins can also manage user accounts and view the history of borrowed and returned books.
-
-**5) Displays Book Statistics**
-- This feature allows admins to view a summary of library book data and the number of times each book has been borrowed. It provides an organized table for easy monitoring of book usage and identifying popular titles and track borrowing trends effectively.
 
 
   
