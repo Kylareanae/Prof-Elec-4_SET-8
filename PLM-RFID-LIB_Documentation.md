@@ -22,9 +22,13 @@
 - The PLM RFID Library is a web-based library management system that utilizes Radio Frequency Identification (RFID) technology to streamline library operations and improve the user experience. By automating key processes such as book tracking, borrowing, and returns, the system enhances operational efficiency and accuracy. It allows users to check out and return books seamlessly, with real-time tracking of borrowed items and automated overdue notifications. The integration with RFID readers enables quick, error-free identification and management of books, reducing manual tasks for staff and improving service for users. Ultimately, the system aims to modernize library operations, making them faster, more efficient, and user-friendly.
 
 **Key Features:**
-**1) RFID Integration for Book Borrowed and Returns** - It allows users to borrow and return books using RFID technology. Each book is tagged with an RFID label, and the system automatically registers checkouts and returns through an RFID reader.
-**2) User Registration and Library Card Management** - Users can register for an account, which includes issuing a library card. This card is linked to the user's profile and can be used for faster checkouts with RFID.
-**3) Book Availability Tracking and Overdue Notifications** - The system monitors the availability of each book in real-time and sends automated reminders to users if a borrowed book is overdue.
+
+**1) RFID Integration for Book Borrowed and Returns** 
+- It allows users to borrow and return books using RFID technology. Each book is tagged with an RFID label, and the system automatically registers checkouts and returns through an RFID reader.
+**2) User Registration and Library Card Management**
+  - Users can register for an account, which includes issuing a library card. This card is linked to the user's profile and can be used for faster checkouts with RFID.
+**3) Book Availability Tracking and Overdue Notifications**
+  - The system monitors the availability of each book in real-time and sends automated reminders to users if a borrowed book is overdue.
 
 
 
