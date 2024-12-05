@@ -18,6 +18,7 @@
 
 **Version:**
 
+
 **Description:** 
 - The PLM RFID Library is a web-based library management system that utilizes Radio Frequency Identification (RFID) technology to streamline library operations and improve the user experience. By automating key processes such as book tracking, borrowing, and returns, the system enhances operational efficiency and accuracy. It allows users to check out and return books seamlessly, with real-time tracking of borrowed items and automated overdue notifications. The integration with RFID readers enables quick, error-free identification and management of books, reducing manual tasks for staff and improving service for users. Ultimately, the system aims to modernize library operations, making them faster, more efficient, and user-friendly.
 
